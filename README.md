@@ -232,3 +232,49 @@ Recall    : 0.4708
 F1-Score  : 0.4653
 
 ```
+AVERAGE RESULTS ACROSS ALL FEATURE TYPES
+```
+Model: Random Forest
+-------------------------
+Accuracy  : 0.5979
+Precision : 0.6378
+Recall    : 0.5979
+F1-Score  : 0.5886
+
+Model: SVM
+-------------------------
+Accuracy  : 0.6906
+Precision : 0.7223
+Recall    : 0.6906
+F1-Score  : 0.6757
+
+Model: Naive Bayes
+-------------------------
+Accuracy  : 0.5271
+Precision : 0.6253
+Recall    : 0.5271
+F1-Score  : 0.5078
+
+Model: MLP
+-------------------------
+Accuracy  : 0.6333
+Precision : 0.7265
+Recall    : 0.6333
+F1-Score  : 0.6359
+
+Model: Decision Tree
+-------------------------
+Accuracy  : 0.3427
+Precision : 0.3579
+Recall    : 0.3427
+F1-Score  : 0.3365
+
+Model: XGBoost
+-------------------------
+Accuracy  : 0.5594
+Precision : 0.6061
+Recall    : 0.5594
+F1-Score  : 0.5580
+
+
+```
