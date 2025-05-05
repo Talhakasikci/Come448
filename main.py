@@ -19,7 +19,7 @@ trained_models = train_models(features["word"][0], y_train)
 results = evaluate_models(trained_models, features["word"][1], y_test)
 
 # 5. Sonuçları yazdır
-print("\nSınıflandırma Sonuçları:")
+print("\nClassification Results:")
 print("-" * 50)
 for model_name, metrics in results.items():
     print(f"\nModel: {model_name}")
